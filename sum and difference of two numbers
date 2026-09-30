@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+#include <stdio.h>
+
+int main() 
+{
+    int num1;
+    int num2;
+    int sum_int;
+    int diff_int;
+
+    float float1;
+    float float2;
+    float sum_float;
+    float diff_float;
+
+    scanf("%d", &num1);
+    scanf("%d", &num2);
+
+    scanf("%f", &float1);
+    scanf("%f", &float2);
+
+    sum_int = num1 + num2;
+    diff_int = num1 - num2;
+
+    sum_float = float1 + float2;
+    diff_float = float1 - float2;
+
+    printf("%d ", sum_int);
+    printf("%d\n", diff_int);
+
+    printf("%.1f ", sum_float);
+    printf("%.1f\n", diff_float);
+
+    return 0;
+}
