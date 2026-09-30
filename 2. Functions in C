@@ -1,11 +1,12 @@
 #include <stdio.h>
 /*
-Add `int max_of_four(int a, int b, int c, int d)` here.
-*/
+   Add `int max_of_four(int a, int b, int c, int d)` here.
+  */
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int max_of_four(int a, int b, int c, int d) {
+    int max_of_four(int a, int b, int c, int d) 
+   {
     // Check if 'a' is bigger than b, c, and d
     if (a >= b && a >= c && a >= d) {
         return a;
@@ -18,13 +19,14 @@ int max_of_four(int a, int b, int c, int d) {
     else if (c >= d) {
         return c;
     }
-    // If none of the above, 'd' must be the biggest
+    // If none of the above, 'd' must be
+      the biggest
     else {
         return d;
-    }
-}
+     }
+     }
 
-int main() {
+    int main() {
     int a, b, c, d;
     
     // Read 4 integers using scanf
